@@ -74,7 +74,7 @@ def plot_shortest_path(stations, durations):
     return fig
 
 # Streamlit App
-st.title("Train Route Finder in France")
+st.title("Path finder in France")
 
 # Load data and build the graph
 df = load_data('timetables.csv')  
