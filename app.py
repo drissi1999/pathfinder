@@ -77,7 +77,7 @@ def plot_shortest_path(stations, durations):
 st.title("Train Route Finder in France")
 
 # Load data and build the graph
-df = load_data('timetables.csv')  # Replace with the correct path to your CSV file
+df = load_data('timetables.csv')  
 graph = build_graph(df)
 
 # Select boxes for start and end cities
